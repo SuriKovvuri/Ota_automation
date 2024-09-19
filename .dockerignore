@@ -1,0 +1,10 @@
+allure-results
+Dockerfile
+node_modules
+tempImages
+*.js
+e2e
+jsconfig.json
+qa-workflowautomation.code-workspace
+reports
+

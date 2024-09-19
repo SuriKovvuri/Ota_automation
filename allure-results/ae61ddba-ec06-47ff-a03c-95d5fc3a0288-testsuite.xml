@@ -1,0 +1,199 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1726654713179' stop='1726654733445'>
+    <name>Validate the schedule access</name>
+    <title>Validate the schedule access</title>
+    <test-cases>
+        <test-case start='1726654716435' status='failed' stop='1726654719602'>
+            <name> Validate the schedule access - Enable the schedule access}</name>
+            <title> Validate the schedule access - Enable the schedule access}</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: jest-cucumber: Admin logged in (line 5)
+                
+                expect(received).toMatch(expected)
+                
+                Matcher error: received value must be a string
+                
+                Received has type:  object
+                Received has value: [Error: expect(received).resolves.toMatch(expected)·
+                Expected substring: "Login - View Remote Access"
+                Received string:    ""]</message>
+                <stack-trace>Error: jest-cucumber: Admin logged in (line 5)
+                
+                expect(received).toMatch(expected)
+                
+                Matcher error: received value must be a string
+                
+                Received has type:  object
+                Received has value: [Error: expect(received).resolves.toMatch(expected)·
+                Expected substring: "Login - View Remote Access"
+                Received string:    ""]
+                    at Object.stepFunction (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\otae2e\helper\otauser.js:1781:23)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1726654719602' status='failed' stop='1726654722258'>
+            <name> Validate the schedule access - Enable the schedule access weeklyOnce}</name>
+            <title> Validate the schedule access - Enable the schedule access weeklyOnce}</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: jest-cucumber: Admin logged in (line 34)
+                
+                expect(received).toMatch(expected)
+                
+                Matcher error: received value must be a string
+                
+                Received has type:  object
+                Received has value: [Error: expect(received).resolves.toMatch(expected)·
+                Expected substring: "Login - View Remote Access"
+                Received string:    ""]</message>
+                <stack-trace>Error: jest-cucumber: Admin logged in (line 34)
+                
+                expect(received).toMatch(expected)
+                
+                Matcher error: received value must be a string
+                
+                Received has type:  object
+                Received has value: [Error: expect(received).resolves.toMatch(expected)·
+                Expected substring: "Login - View Remote Access"
+                Received string:    ""]
+                    at Object.stepFunction (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\otae2e\helper\otauser.js:1781:23)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1726654722259' status='failed' stop='1726654724976'>
+            <name> Validate the schedule access - Enable the schedule access Weeklytwice}</name>
+            <title> Validate the schedule access - Enable the schedule access Weeklytwice}</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: jest-cucumber: Admin logged in (line 60)
+                
+                expect(received).toMatch(expected)
+                
+                Matcher error: received value must be a string
+                
+                Received has type:  object
+                Received has value: [Error: expect(received).resolves.toMatch(expected)·
+                Expected substring: "Login - View Remote Access"
+                Received string:    ""]</message>
+                <stack-trace>Error: jest-cucumber: Admin logged in (line 60)
+                
+                expect(received).toMatch(expected)
+                
+                Matcher error: received value must be a string
+                
+                Received has type:  object
+                Received has value: [Error: expect(received).resolves.toMatch(expected)·
+                Expected substring: "Login - View Remote Access"
+                Received string:    ""]
+                    at Object.stepFunction (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\otae2e\helper\otauser.js:1781:23)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1726654724976' status='failed' stop='1726654727816'>
+            <name> Validate the schedule access - Enable the schedule access WeeklyAllDays}</name>
+            <title> Validate the schedule access - Enable the schedule access WeeklyAllDays}</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: jest-cucumber: Admin logged in (line 87)
+                
+                expect(received).toMatch(expected)
+                
+                Matcher error: received value must be a string
+                
+                Received has type:  object
+                Received has value: [Error: expect(received).resolves.toMatch(expected)·
+                Expected substring: "Login - View Remote Access"
+                Received string:    ""]</message>
+                <stack-trace>Error: jest-cucumber: Admin logged in (line 87)
+                
+                expect(received).toMatch(expected)
+                
+                Matcher error: received value must be a string
+                
+                Received has type:  object
+                Received has value: [Error: expect(received).resolves.toMatch(expected)·
+                Expected substring: "Login - View Remote Access"
+                Received string:    ""]
+                    at Object.stepFunction (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\otae2e\helper\otauser.js:1781:23)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1726654727816' status='failed' stop='1726654730520'>
+            <name> Validate the schedule access - Enable the schedule access MonthlyOnce}</name>
+            <title> Validate the schedule access - Enable the schedule access MonthlyOnce}</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: jest-cucumber: Admin logged in (line 112)
+                
+                expect(received).toMatch(expected)
+                
+                Matcher error: received value must be a string
+                
+                Received has type:  object
+                Received has value: [Error: expect(received).resolves.toMatch(expected)·
+                Expected substring: "Login - View Remote Access"
+                Received string:    ""]</message>
+                <stack-trace>Error: jest-cucumber: Admin logged in (line 112)
+                
+                expect(received).toMatch(expected)
+                
+                Matcher error: received value must be a string
+                
+                Received has type:  object
+                Received has value: [Error: expect(received).resolves.toMatch(expected)·
+                Expected substring: "Login - View Remote Access"
+                Received string:    ""]
+                    at Object.stepFunction (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\otae2e\helper\otauser.js:1781:23)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1726654730521' status='failed' stop='1726654733409'>
+            <name> Validate the schedule access - Enable the schedule access on the week and day}</name>
+            <title> Validate the schedule access - Enable the schedule access on the week and day}</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: jest-cucumber: Admin logged in (line 141)
+                
+                expect(received).toMatch(expected)
+                
+                Matcher error: received value must be a string
+                
+                Received has type:  object
+                Received has value: [Error: expect(received).resolves.toMatch(expected)·
+                Expected substring: "Login - View Remote Access"
+                Received string:    ""]</message>
+                <stack-trace>Error: jest-cucumber: Admin logged in (line 141)
+                
+                expect(received).toMatch(expected)
+                
+                Matcher error: received value must be a string
+                
+                Received has type:  object
+                Received has value: [Error: expect(received).resolves.toMatch(expected)·
+                Expected substring: "Login - View Remote Access"
+                Received string:    ""]
+                    at Object.stepFunction (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\otae2e\helper\otauser.js:1781:23)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

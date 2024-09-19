@@ -1,0 +1,71 @@
+[2024-09-18T14:33:32.709] [INFO] default - Registering the reporter globally
+[2024-09-18T14:33:41.435] [INFO] default - Before all
+[2024-09-18T14:33:41.441] [INFO] default - global.env = ota_nb
+[2024-09-18T14:33:41.475] [INFO] default - env = ota_nb
+[2024-09-18T14:33:41.517] [INFO] default - Navigating to https://dailyregr.remoteaccess.view.com/
+[2024-09-18T14:33:48.155] [INFO] default - Created custom screenshot  loginPage.png
+[2024-09-18T14:33:48.550] [INFO] default - Navigating to using expect click
+[2024-09-18T14:33:51.648] [INFO] default - Hit login
+[2024-09-18T14:34:07.800] [INFO] default - Before Each 
+[2024-09-18T14:34:07.806] [INFO] default - In givenAdminLoggedIn
+[2024-09-18T14:34:08.495] [INFO] default - Created custom screenshot  givenAdminLoggedIn.png
+[2024-09-18T14:34:08.505] [INFO] default - In performAction
+[2024-09-18T14:34:08.507] [INFO] default - In getElementHandleByXpath  //aside//a[@href[contains(.,'orginfo')]]
+[2024-09-18T14:34:08.508] [INFO] default - in if
+[2024-09-18T14:34:08.561] [INFO] default - in click
+[2024-09-18T14:34:10.906] [INFO] default - In performAction
+[2024-09-18T14:34:10.909] [INFO] default - In getElementHandleByXpath  //div[@class='ant-collapse-item']//span[@aria-label='right']//*[name()='svg']
+[2024-09-18T14:34:10.911] [INFO] default - in if
+[2024-09-18T14:34:10.961] [INFO] default - in click
+[2024-09-18T14:34:11.411] [INFO] default - After Each 
+[2024-09-18T14:34:11.420] [INFO] default - After ALL
+[2024-09-18T14:34:11.751] [INFO] default - Created custom screenshot  afterEach.png
+[2024-09-18T14:34:13.350] [INFO] default - In performAction
+[2024-09-18T14:34:13.353] [INFO] default - In getElementHandleByXpath  //div[text()="Notification Banner"]//parent::div//child::span[@class="anticon anticon-right ant-collapse-arrow"]//*[name()="svg"]
+[2024-09-18T14:34:13.354] [INFO] default - in if
+[2024-09-18T14:34:13.401] [INFO] default - in click
+[2024-09-18T14:34:15.462] [INFO] default - In performAction
+[2024-09-18T14:34:15.465] [INFO] default - In getElementHandleByXpath  //span[text()="Create Banner"]//parent::button[@type="button"]//span[@class="anticon anticon-plus"]
+[2024-09-18T14:34:15.466] [INFO] default - in if
+[2024-09-18T14:34:15.502] [INFO] default - in click
+[2024-09-18T14:34:17.590] [INFO] default - In performAction
+[2024-09-18T14:34:17.595] [INFO] default - In getElementHandleByXpath  //div[@class='rdw-editor-main']
+[2024-09-18T14:34:17.596] [INFO] default - in if
+[2024-09-18T14:34:17.651] [INFO] default - in click
+[2024-09-18T14:36:27.757] [INFO] default - In performAction
+[2024-09-18T14:36:27.760] [INFO] default - In getElementHandleByXpath  //div[@class='rdw-editor-main']
+[2024-09-18T14:36:27.761] [INFO] default - in if
+[2024-09-18T14:36:28.014] [INFO] default - in type 1 Hi This is a new Feature
+[2024-09-18T14:38:11.749] [INFO] default - In performAction
+[2024-09-18T14:38:11.751] [INFO] default - In getElementHandleByXpath  //span[text()="Save"]//parent::button
+[2024-09-18T14:38:11.752] [INFO] default - in if
+[2024-09-18T14:38:11.847] [INFO] default - Ending After all
+[2024-09-18T14:38:11.939] [ERROR] default - ProtocolError: Protocol error (Runtime.callFunctionOn): Target closed.
+    at C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\Connection.ts:304:16
+    at new Promise (<anonymous>)
+    at CDPSession.send (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\Connection.ts:300:12)
+    at ExecutionContext._evaluateInternal (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\ExecutionContext.ts:254:44)
+    at ExecutionContext.evaluateHandle (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\ExecutionContext.ts:193:17)
+    at WaitTask.rerun (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\DOMWorld.ts:841:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  originalMessage: ''
+}
+[2024-09-18T14:38:11.948] [ERROR] default - Unable to get element handle by xpath {} //span[text()="Save"]//parent::button
+[2024-09-18T14:38:13.961] [INFO] default - In performAction
+[2024-09-18T14:38:13.963] [INFO] default - In getElementHandleByXpath  //label[@class="email-switch-label"]
+[2024-09-18T14:38:13.964] [INFO] default - in if
+[2024-09-18T14:38:13.966] [ERROR] default - Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\Connection.ts:286:9)
+    at ExecutionContext._evaluateInternal (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\ExecutionContext.ts:254:44)
+    at ExecutionContext.evaluateHandle (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\ExecutionContext.ts:193:17)
+    at WaitTask.rerun (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\DOMWorld.ts:841:31)
+[2024-09-18T14:38:13.969] [ERROR] default - Unable to get element handle by xpath {} //label[@class="email-switch-label"]
+[2024-09-18T14:38:15.985] [INFO] default - In performAction
+[2024-09-18T14:38:15.985] [INFO] default - In getElementHandleByXpath  //aside//a[@href[starts-with(.,'/dashboard')]]
+[2024-09-18T14:38:15.986] [INFO] default - in if
+[2024-09-18T14:38:15.987] [ERROR] default - Error: Protocol error (Runtime.callFunctionOn): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\Connection.ts:286:9)
+    at ExecutionContext._evaluateInternal (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\ExecutionContext.ts:254:44)
+    at ExecutionContext.evaluateHandle (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\ExecutionContext.ts:193:17)
+    at WaitTask.rerun (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\DOMWorld.ts:841:31)
+[2024-09-18T14:38:15.989] [ERROR] default - Unable to get element handle by xpath {} //aside//a[@href[starts-with(.,'/dashboard')]]

@@ -1,0 +1,25 @@
+[2024-09-17T17:24:25.703] [INFO] default - Registering the reporter globally
+[2024-09-17T17:24:33.448] [INFO] default - Before all
+[2024-09-17T17:24:33.454] [INFO] default - global.env = ota_nb
+[2024-09-17T17:24:33.493] [INFO] default - env = ota_nb
+[2024-09-17T17:24:33.534] [INFO] default - Navigating to https://qa.remoteaccess.view.com/
+[2024-09-17T17:24:36.680] [INFO] default - Created custom screenshot  loginPage.png
+[2024-09-17T17:25:16.981] [ERROR] default - [ProtocolError: Element input[id="username"] not found
+Protocol error (Runtime.callFunctionOn): Target closed.] {
+  originalMessage: ''
+}
+[2024-09-17T17:25:17.001] [INFO] default - Before Each 
+[2024-09-17T17:25:17.008] [INFO] default - In givenAdminLoggedIn
+[2024-09-17T17:25:17.014] [INFO] default - After Each 
+[2024-09-17T17:25:17.029] [INFO] default - After ALL
+[2024-09-17T17:25:17.050] [INFO] default - Ignorable exception, possibly have already logged out
+[2024-09-17T17:25:17.072] [INFO] default - Error: Protocol error (Runtime.evaluate): Session closed. Most likely the page has been closed.
+    at CDPSession.send (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\Connection.ts:286:9)
+    at ExecutionContext._evaluateInternal (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\ExecutionContext.ts:211:10)
+    at ExecutionContext.evaluateHandle (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\ExecutionContext.ts:193:17)
+    at C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\DOMWorld.ts:191:38
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2024-09-17T17:25:17.082] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'detach')
+    at PuppeteerHar.stop (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer-har\lib\PuppeteerHar.js:108:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Object.<anonymous> (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\otae2e\test-specifications\otanotificationbanner.spec.js:64:13)

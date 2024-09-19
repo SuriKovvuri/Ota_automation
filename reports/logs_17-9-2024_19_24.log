@@ -1,0 +1,13 @@
+[2024-09-17T19:24:21.504] [INFO] default - Registering the reporter globally
+[2024-09-17T19:24:27.042] [INFO] default - Before all
+[2024-09-17T19:24:27.049] [INFO] default - global.env = ota_nb
+[2024-09-17T19:24:27.089] [INFO] default - env = ota_nb
+[2024-09-17T19:24:27.126] [INFO] default - Navigating to https://dailyregr.remoteaccess.view.com/
+[2024-09-17T19:24:33.449] [INFO] default - Created custom screenshot  loginPage.png
+[2024-09-17T19:24:33.730] [INFO] default - Navigating to using expect click
+[2024-09-17T19:24:36.655] [INFO] default - Hit login
+[2024-09-17T19:24:52.829] [INFO] default - Before Each 
+[2024-09-17T19:24:52.863] [INFO] default - After Each 
+[2024-09-17T19:24:56.513] [INFO] default - Created custom screenshot  afterEach.png
+[2024-09-17T19:24:56.525] [INFO] default - After ALL
+[2024-09-17T19:25:28.688] [INFO] default - Ending After all

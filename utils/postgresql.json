@@ -1,0 +1,21 @@
+{
+    "General":{
+        "SuperuserPassword":"password",
+        "IPAddress":"17.1.1.2",
+        "Kind":"Replica",
+        "RunServicesInInodes":"Candidate"
+    },
+    "DHCP":{
+        "DatabaseName":"dhcp",
+        "UserName":"dhcp4",
+        "Password":"password"
+    },
+    "DNS":{
+        "DatabaseName":"pdns",
+        "UserName":"pdns",
+        "Password":"password"
+    },
+    "Service":{
+        "SelectVersion":"postgres-12.3.0-2"      
+    }
+}

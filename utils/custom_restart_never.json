@@ -1,0 +1,21 @@
+{
+  "name": "dockeriperf",
+       "image_pull_policy": "IfNotPresent",
+"services": [
+
+    {
+      "image": {
+        "name": "iotium/pingtest",
+        "version": "latest"
+      },
+      "docker": {
+      "volume_mounts": [],
+      "environment_vars": {
+      "HOSTNAME": "8.8.8.8",
+      "TIMEOUT": "3"
+      }
+      }
+    }
+  ],
+  "restart_policy": "Never"
+}

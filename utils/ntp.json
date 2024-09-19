@@ -1,0 +1,7 @@
+{
+    "General":{
+        "IPAddress":"17.1.1.5",
+        "Kind":"Singleton",
+        "SelectVersion":"ntp-4.2.8p10-1"
+    }
+}

@@ -1,0 +1,41 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"typescript.tsdk": "./node_modules/typescript/lib",
+		"cucumberautocomplete.steps": [
+			"e2e/test-specifications/*.js",
+			"e2e/features/step_definitions/*.js",
+			"node_modules/qa-lib/src/step_definitions/*.js"
+		],
+		"cucumberautocomplete.syncfeatures": "e2e/features/*feature",
+		"cucumberautocomplete.strictGherkinCompletion": true,
+		"cucumberautocomplete.strictGherkinValidation": true,
+		"cucumberautocomplete.smartSnippets": true,
+		"cucumberautocomplete.stepsInvariants": true,
+		"cucumberautocomplete.customParameters": [
+			{
+				"parameter": "{ab}",
+				"value": "(a|b)"
+			},
+			{
+				"parameter": {},
+				"value": "a"
+			}
+		],
+		"cucumberautocomplete.skipDocStringsFormat": true,
+		"cucumberautocomplete.formatConfOverride": {
+			"And": 3,
+			"But": "relative"
+		},
+		"cucumberautocomplete.onTypeFormat": true,
+		"cucumberautocomplete.gherkinDefinitionPart": "(Given|When|Then)\\(",
+		"cucumberautocomplete.stepRegExSymbol": "'",
+		"javascript.format.enable": true,
+		"javascript.autoClosingTags": true,
+		"git.ignoreLimitWarning": true
+	}
+}

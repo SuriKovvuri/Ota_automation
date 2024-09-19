@@ -1,0 +1,6 @@
+[2024-09-17T12:28:03.922] [INFO] default - Registering the reporter globally
+[2024-09-17T12:28:08.427] [INFO] default - Before all
+[2024-09-17T12:28:08.429] [INFO] default - global.env = ota_sa
+[2024-09-17T12:28:08.442] [INFO] default - env = ota_sa
+[2024-09-17T12:28:08.467] [INFO] default - Navigating to https://qa.remoteaccess.view.com/
+[2024-09-17T12:28:14.941] [INFO] default - Created custom screenshot  loginPage.png

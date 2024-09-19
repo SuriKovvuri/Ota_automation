@@ -1,0 +1,13 @@
+{
+    "General":{
+        "IPAddress":"17.1.1.4",
+        "Kind":"Singleton"
+    },
+    "Configuration":{
+        "DhcpConfig":"dhcp",
+        "DdnsConfig":"ddns"
+    },
+    "Service":{
+        "SelectVersion":"kea-1.6.2-2"      
+    }
+}

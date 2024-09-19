@@ -1,0 +1,27 @@
+[2024-09-17T14:45:05.374] [INFO] default - Registering the reporter globally
+[2024-09-17T14:45:11.506] [INFO] default - Before all
+[2024-09-17T14:45:11.510] [INFO] default - global.env = ota_nb
+[2024-09-17T14:45:11.522] [INFO] default - env = ota_nb
+[2024-09-17T14:45:11.546] [INFO] default - Navigating to https://qa.remoteaccess.view.com/
+[2024-09-17T14:45:37.788] [INFO] default - Created custom screenshot  loginPage.png
+[2024-09-17T14:45:38.128] [INFO] default - Navigating to using expect click
+[2024-09-17T14:45:40.212] [INFO] default - Hit login
+[2024-09-17T14:45:56.331] [INFO] default - Before Each 
+[2024-09-17T14:45:56.336] [INFO] default - In givenAdminLoggedIn
+[2024-09-17T14:45:58.275] [INFO] default - Created custom screenshot  givenAdminLoggedIn.png
+[2024-09-17T14:45:58.284] [INFO] default - In performAction
+[2024-09-17T14:45:58.287] [INFO] default - In getElementHandleByXpath  //aside//a[@href[contains(.,'orginfo')]]
+[2024-09-17T14:45:58.288] [INFO] default - in if
+[2024-09-17T14:45:58.712] [INFO] default - in click
+[2024-09-17T14:46:01.087] [INFO] default - In performAction
+[2024-09-17T14:46:01.090] [INFO] default - In getElementHandleByXpath  //div[@class='ant-collapse-item']//span[@aria-label='right']//*[name()='svg']
+[2024-09-17T14:46:01.091] [INFO] default - in if
+[2024-09-17T14:46:01.123] [INFO] default - in click
+[2024-09-17T14:46:03.397] [INFO] default - In performAction
+[2024-09-17T14:46:03.399] [INFO] default - In getElementHandleByXpath  //div[text()="Notification Banner"]//parent::div//child::span[@class="anticon anticon-right ant-collapse-arrow"]//*[name()="svg"]
+[2024-09-17T14:46:03.400] [INFO] default - in if
+[2024-09-17T14:46:03.433] [INFO] default - in click
+[2024-09-17T14:46:05.489] [INFO] default - After Each 
+[2024-09-17T14:46:06.052] [INFO] default - Created custom screenshot  afterEach.png
+[2024-09-17T14:46:06.059] [INFO] default - After ALL
+[2024-09-17T14:46:36.661] [INFO] default - Ending After all

@@ -1,0 +1,19 @@
+[2024-09-17T12:54:02.944] [INFO] default - Registering the reporter globally
+[2024-09-17T12:54:07.567] [INFO] default - Before all
+[2024-09-17T12:54:07.571] [INFO] default - global.env = ota_nb
+[2024-09-17T12:54:07.608] [INFO] default - env = ota_nb
+[2024-09-17T12:54:07.650] [INFO] default - Navigating to https://qa.remoteaccess.view.com/
+[2024-09-17T12:54:14.098] [INFO] default - Created custom screenshot  loginPage.png
+[2024-09-17T12:54:14.352] [INFO] default - Navigating to using expect click
+[2024-09-17T12:54:17.766] [INFO] default - Hit login
+[2024-09-17T12:54:33.869] [INFO] default - Before Each 
+[2024-09-17T12:54:33.872] [INFO] default - In givenAdminLoggedIn
+[2024-09-17T12:54:35.760] [INFO] default - Created custom screenshot  givenAdminLoggedIn.png
+[2024-09-17T12:54:35.765] [INFO] default - In performAction
+[2024-09-17T12:54:35.768] [INFO] default - In getElementHandleByXpath  //aside//a[@href[contains(.,'orginfo')]]
+[2024-09-17T12:54:35.768] [INFO] default - in if
+[2024-09-17T12:54:36.171] [INFO] default - in click
+[2024-09-17T12:54:38.752] [INFO] default - After Each 
+[2024-09-17T12:54:39.105] [INFO] default - Created custom screenshot  afterEach.png
+[2024-09-17T12:54:39.108] [INFO] default - After ALL
+[2024-09-17T12:55:09.725] [INFO] default - Ending After all

@@ -1,0 +1,47 @@
+[2024-09-17T18:38:05.265] [INFO] default - Registering the reporter globally
+[2024-09-17T18:38:11.667] [INFO] default - Before all
+[2024-09-17T18:38:11.675] [INFO] default - global.env = ota_nb
+[2024-09-17T18:38:11.706] [INFO] default - env = ota_nb
+[2024-09-17T18:38:11.744] [INFO] default - Navigating to https://dailyregr.remoteaccess.view.com/
+[2024-09-17T18:38:22.693] [INFO] default - Created custom screenshot  loginPage.png
+[2024-09-17T18:38:23.005] [INFO] default - Navigating to using expect click
+[2024-09-17T18:38:26.186] [INFO] default - Hit login
+[2024-09-17T18:38:42.304] [INFO] default - Before Each 
+[2024-09-17T18:38:42.314] [INFO] default - In givenAdminLoggedIn
+[2024-09-17T18:38:43.117] [INFO] default - Created custom screenshot  givenAdminLoggedIn.png
+[2024-09-17T18:38:43.131] [INFO] default - In performAction
+[2024-09-17T18:38:43.133] [INFO] default - In getElementHandleByXpath  //aside//a[@href[contains(.,'orginfo')]]
+[2024-09-17T18:38:43.134] [INFO] default - in if
+[2024-09-17T18:38:43.178] [INFO] default - in click
+[2024-09-17T18:38:45.491] [INFO] default - In performAction
+[2024-09-17T18:38:45.495] [INFO] default - In getElementHandleByXpath  //div[@class='ant-collapse-item']//span[@aria-label='right']//*[name()='svg']
+[2024-09-17T18:38:45.496] [INFO] default - in if
+[2024-09-17T18:38:45.533] [INFO] default - in click
+[2024-09-17T18:38:47.957] [INFO] default - In performAction
+[2024-09-17T18:38:47.962] [INFO] default - In getElementHandleByXpath  //div[text()="Notification Banner"]//parent::div//child::span[@class="anticon anticon-right ant-collapse-arrow"]//*[name()="svg"]
+[2024-09-17T18:38:47.963] [INFO] default - in if
+[2024-09-17T18:38:48.009] [INFO] default - in click
+[2024-09-17T18:38:50.078] [INFO] default - In performAction
+[2024-09-17T18:38:50.081] [INFO] default - In getElementHandleByXpath  //span[text()="Create Banner"]//parent::button[@type="button"]//span[@class="anticon anticon-plus"]
+[2024-09-17T18:38:50.082] [INFO] default - in if
+[2024-09-17T18:38:50.120] [INFO] default - in click
+[2024-09-17T18:38:52.252] [INFO] default - In performAction
+[2024-09-17T18:38:52.255] [INFO] default - In getElementHandleByXpath  //div[@class='rdw-editor-main']
+[2024-09-17T18:38:52.256] [INFO] default - in if
+[2024-09-17T18:38:52.293] [INFO] default - in click
+[2024-09-17T18:38:54.342] [INFO] default - In performAction
+[2024-09-17T18:38:54.345] [INFO] default - In getElementHandleByXpath  //div[@class='rdw-editor-main']
+[2024-09-17T18:38:54.346] [INFO] default - in if
+[2024-09-17T18:38:54.379] [INFO] default - in type 1 Hi This is a new Feature
+[2024-09-17T18:38:56.984] [INFO] default - In performAction
+[2024-09-17T18:38:56.986] [INFO] default - In getElementHandleByXpath  //span[text()="Save"]//parent::button
+[2024-09-17T18:38:56.988] [INFO] default - in if
+[2024-09-17T18:38:57.017] [INFO] default - in click
+[2024-09-17T18:38:59.083] [INFO] default - In performAction
+[2024-09-17T18:38:59.088] [INFO] default - In getElementHandleByXpath  //aside//a[@href[starts-with(.,'/dashboard')]]
+[2024-09-17T18:38:59.089] [INFO] default - in if
+[2024-09-17T18:38:59.131] [INFO] default - in click
+[2024-09-17T18:39:15.228] [INFO] default - After Each 
+[2024-09-17T18:39:16.079] [INFO] default - Created custom screenshot  afterEach.png
+[2024-09-17T18:39:16.087] [INFO] default - After ALL
+[2024-09-17T18:39:46.871] [INFO] default - Ending After all

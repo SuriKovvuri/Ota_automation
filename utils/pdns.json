@@ -1,0 +1,21 @@
+{
+    "General":{
+        "IPAddress":"17.1.1.3",
+        "Kind":"Singleton"
+    },
+    "Database":{
+        "PostgreSQLServiceIPAddress":"17.1.1.2",
+        "DatabaseName":"pdns",
+        "UserName":"pdns",
+        "Password":"password"
+    },
+    "DNSZone":{
+        "ZoneFile":"zone"
+    },
+    "Service":{
+        "SelectVersion":"powerdns-4.0.8-2",
+        "AllowDNSUpdatesFrom":"17.1.1.0/24",
+        "AllowAPIAccessFrom":"17.1.1.0/24",
+        "APIKey":"key"  
+    }
+}

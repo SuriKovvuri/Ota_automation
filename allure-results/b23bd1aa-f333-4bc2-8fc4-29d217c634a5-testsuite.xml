@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1726649160361' stop='1726649244602'>
+    <name>Validate the notification banner</name>
+    <title>Validate the notification banner</title>
+    <test-cases>
+        <test-case start='1726649209817' status='failed' stop='1726649213808'>
+            <name> Validate the notification banner - Create a notification banner}</name>
+            <title> Validate the notification banner - Create a notification banner}</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1726649209824' status='passed' stop='1726649210722'>
+                    <name>Admin user logged in</name>
+                    <title>Admin user logged in</title>
+                    <attachments>
+                        <attachment title='Admin user logged in.' source='1aad336d-8eb9-4d15-b7c6-6b7c78dbf50f-attachment.png' type='image/png' size='143111'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1726649210722' status='undefined'>
+                    <name>When I navigate to Org profile</name>
+                    <title>When I navigate to Org profile</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Error: Request failed with status code 404
+                    at createError (https://d20u9ifcznko36.cloudfront.net/ota-rel-24.07.00-214/js/vendors.e72ea18e.chunk.js:2:2898071)
+                    at settle (https://d20u9ifcznko36.cloudfront.net/ota-rel-24.07.00-214/js/vendors.e72ea18e.chunk.js:2:4795868)
+                    at XMLHttpRequest.onloadend (https://d20u9ifcznko36.cloudfront.net/ota-rel-24.07.00-214/js/vendors.e72ea18e.chunk.js:2:2896438)</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

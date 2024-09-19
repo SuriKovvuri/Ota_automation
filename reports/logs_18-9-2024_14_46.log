@@ -1,0 +1,42 @@
+[2024-09-18T14:46:22.005] [INFO] default - Registering the reporter globally
+[2024-09-18T14:46:27.106] [INFO] default - Before all
+[2024-09-18T14:46:27.111] [INFO] default - global.env = ota_nb
+[2024-09-18T14:46:27.136] [INFO] default - env = ota_nb
+[2024-09-18T14:46:27.171] [INFO] default - Navigating to https://qa.remoteaccess.view.com/
+[2024-09-18T14:46:34.766] [INFO] default - Created custom screenshot  loginPage.png
+[2024-09-18T14:46:34.975] [INFO] default - Navigating to using expect click
+[2024-09-18T14:46:37.046] [INFO] default - Hit login
+[2024-09-18T14:46:53.165] [INFO] default - Before Each 
+[2024-09-18T14:46:53.172] [INFO] default - In givenAdminLoggedIn
+[2024-09-18T14:46:55.081] [INFO] default - Created custom screenshot  givenAdminLoggedIn.png
+[2024-09-18T14:46:55.091] [INFO] default - In performAction
+[2024-09-18T14:46:55.106] [INFO] default - In getElementHandleByXpath  //aside//a[@href[contains(.,'orginfo')]]
+[2024-09-18T14:46:55.107] [INFO] default - in if
+[2024-09-18T14:46:55.471] [INFO] default - in click
+[2024-09-18T14:46:57.780] [INFO] default - In performAction
+[2024-09-18T14:46:57.782] [INFO] default - In getElementHandleByXpath  //div[@class='ant-collapse-item']//span[@aria-label='right']//*[name()='svg']
+[2024-09-18T14:46:57.784] [INFO] default - in if
+[2024-09-18T14:46:57.813] [INFO] default - in click
+[2024-09-18T14:46:58.311] [INFO] default - After Each 
+[2024-09-18T14:46:58.316] [INFO] default - After ALL
+[2024-09-18T14:46:58.637] [INFO] default - Created custom screenshot  afterEach.png
+[2024-09-18T14:47:00.159] [INFO] default - In performAction
+[2024-09-18T14:47:00.162] [INFO] default - In getElementHandleByXpath  //div[text()="Notification Banner"]//parent::div//child::span[@class="anticon anticon-right ant-collapse-arrow"]//*[name()="svg"]
+[2024-09-18T14:47:00.163] [INFO] default - in if
+[2024-09-18T14:47:00.197] [INFO] default - in click
+[2024-09-18T14:47:02.254] [INFO] default - In performAction
+[2024-09-18T14:47:02.256] [INFO] default - In getElementHandleByXpath  //span[text()="Create Banner"]//parent::button[@type="button"]//span[@class="anticon anticon-plus"]
+[2024-09-18T14:47:02.257] [INFO] default - in if
+[2024-09-18T14:47:02.293] [INFO] default - in click
+[2024-09-18T14:47:04.398] [INFO] default - In performAction
+[2024-09-18T14:47:04.402] [INFO] default - In getElementHandleByXpath  //div[@class='rdw-editor-main']
+[2024-09-18T14:47:04.402] [INFO] default - in if
+[2024-09-18T14:47:04.435] [INFO] default - in click
+[2024-09-18T14:47:06.480] [INFO] default - In performAction
+[2024-09-18T14:47:06.482] [INFO] default - In getElementHandleByXpath  //aside//a[@href[starts-with(.,'/dashboard')]]
+[2024-09-18T14:47:06.482] [INFO] default - in if
+[2024-09-18T14:47:06.506] [INFO] default - in click
+[2024-09-18T14:47:29.062] [ERROR] default - Error: Session already detached. Most likely the page has been closed.
+    at CDPSession.detach (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\Connection.ts:334:13)
+    at PuppeteerHar.stop (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer-har\lib\PuppeteerHar.js:108:27)
+    at Object.<anonymous> (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\otae2e\test-specifications\otanotificationbanner.spec.js:64:13)

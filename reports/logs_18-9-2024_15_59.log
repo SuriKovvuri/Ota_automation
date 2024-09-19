@@ -1,0 +1,141 @@
+[2024-09-18T15:59:27.688] [INFO] default - Registering the reporter globally
+[2024-09-18T15:59:35.260] [INFO] default - Before all
+[2024-09-18T15:59:35.266] [INFO] default - global.env = ota_sa
+[2024-09-18T15:59:35.291] [INFO] default - env = ota_sa
+[2024-09-18T15:59:35.339] [INFO] default - Navigating to https://dailyregr.remoteaccess.view.com/
+[2024-09-18T16:02:14.429] [INFO] default - Created custom screenshot  loginPage.png
+[2024-09-18T16:02:14.944] [INFO] default - Navigating to using expect click
+[2024-09-18T16:02:17.032] [INFO] default - Hit login
+[2024-09-18T16:02:33.179] [INFO] default - Before Each 
+[2024-09-18T16:02:33.186] [INFO] default - In givenAdminLoggedIn
+[2024-09-18T16:02:34.797] [INFO] default - Created custom screenshot  givenAdminLoggedIn.png
+[2024-09-18T16:02:34.872] [INFO] default - {
+  userid: 'saccesstesting',
+  scheduleaccess: 'enable',
+  Repeat: 'Daily',
+  startday: 'Today',
+  endday: 'Today',
+  timezone: 'Asia/Kolkata',
+  Time: 'Custom',
+  deleteuserafterexpiry: 'No',
+  usernotification: 'notify now'
+}
+[2024-09-18T16:02:34.876] [INFO] default - {
+  userid: 'saccesstesting',
+  scheduleaccess: 'enable',
+  Repeat: 'Daily',
+  startday: 'Today',
+  endday: 'Today',
+  timezone: 'Asia/Kolkata',
+  Time: 'Custom',
+  deleteuserafterexpiry: 'No',
+  usernotification: 'notify now'
+}
+[2024-09-18T16:02:34.880] [INFO] default - In performAction
+[2024-09-18T16:02:34.880] [INFO] default - In getElementHandleByXpath  //aside//a[@href[contains(.,'userdashboard')]]
+[2024-09-18T16:02:34.881] [INFO] default - in if
+[2024-09-18T16:02:35.150] [INFO] default - in click
+[2024-09-18T16:02:39.458] [INFO] default - In performAction
+[2024-09-18T16:02:39.462] [INFO] default - In getElementHandleByXpath  //span[@class="anticon anticon-down arrow-toggle"]
+[2024-09-18T16:02:39.463] [INFO] default - in if
+[2024-09-18T16:02:39.502] [INFO] default - in click
+[2024-09-18T16:02:41.595] [INFO] default - In performAction
+[2024-09-18T16:02:41.598] [INFO] default - In getElementHandleByXpath  //input[@placeholder="User ID"]
+[2024-09-18T16:02:41.599] [INFO] default - in if
+[2024-09-18T16:02:41.633] [INFO] default - in type 1 saccesstesting
+[2024-09-18T16:02:44.101] [INFO] default - In performAction
+[2024-09-18T16:02:44.104] [INFO] default - In getElementHandleByXpath  //span[@aria-label="search"]
+[2024-09-18T16:02:44.104] [INFO] default - in if
+[2024-09-18T16:02:44.143] [INFO] default - in click
+[2024-09-18T16:02:51.386] [INFO] default - In performAction
+[2024-09-18T16:02:51.390] [INFO] default - In getElementHandleByXpath  //a[normalize-space()='Scheduled Accesstesting']
+[2024-09-18T16:02:51.391] [INFO] default - in if
+[2024-09-18T16:03:21.394] [ERROR] default - TimeoutError: waiting for XPath `//a[normalize-space()='Scheduled Accesstesting']` failed: timeout 30000ms exceeded
+    at new WaitTask (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\DOMWorld.ts:813:28)
+    at DOMWorld.waitForXPath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\DOMWorld.ts:702:22)
+    at Frame.waitForXPath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\FrameManager.ts:1320:47)
+    at Page.waitForXPath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\Page.ts:3281:29)
+    at getElementHandleByXpath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\utils\utils.js:472:18)
+    at performAction (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\utils\utils.js:497:24)
+    at Object.stepFunction (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\otae2e\helper\otauser.js:1820:40)
+[2024-09-18T16:03:21.400] [ERROR] default - Unable to get element handle by xpath {} //a[normalize-space()='Scheduled Accesstesting']
+[2024-09-18T16:03:23.441] [INFO] default - In performAction
+[2024-09-18T16:03:23.443] [INFO] default - In getElementHandleByXpath  //span[@class='anticon anticon-right ant-collapse-arrow']
+[2024-09-18T16:03:23.444] [INFO] default - in if
+[2024-09-18T16:03:23.481] [INFO] default - in click
+[2024-09-18T16:03:25.458] [INFO] default - In performAction
+[2024-09-18T16:03:25.461] [INFO] default - In getElementHandleByXpath  //div[contains(@class, 'editGroup')]
+[2024-09-18T16:03:25.463] [INFO] default - in if
+[2024-09-18T16:03:25.511] [INFO] default - in click
+[2024-09-18T16:03:45.495] [INFO] default - In performAction
+[2024-09-18T16:03:45.497] [INFO] default - In getElementHandleByXpath  //button[@id='enabled']
+[2024-09-18T16:03:45.498] [INFO] default - in if
+[2024-09-18T16:03:45.530] [INFO] default - in click
+[2024-09-18T16:03:47.534] [INFO] default - In performAction
+[2024-09-18T16:03:47.536] [INFO] default - In getElementHandleByXpath  (//span[@aria-label="down"])[6]
+[2024-09-18T16:03:47.537] [INFO] default - in if
+[2024-09-18T16:03:47.568] [INFO] default - in click
+[2024-09-18T16:03:52.544] [INFO] default - In performAction
+[2024-09-18T16:03:52.545] [INFO] default - In getElementHandleByXpath  //div[contains(text(),'Daily')]
+[2024-09-18T16:03:52.546] [INFO] default - in if
+[2024-09-18T16:03:52.564] [INFO] default - in click
+[2024-09-18T16:03:57.664] [INFO] default - Current Time: 04:03 PM
+[2024-09-18T16:03:57.665] [INFO] default - One Minute Later: 04:04 PM
+[2024-09-18T16:03:57.665] [INFO] default - Fifteen Minutes Later: 04:19 PM
+[2024-09-18T16:03:57.665] [INFO] default - Current Time: 04:03 PM
+[2024-09-18T16:03:57.666] [INFO] default - One Minute Later: 04:04 PM
+[2024-09-18T16:03:57.666] [INFO] default - Fifteen Minutes Later: 04:19 PM
+[2024-09-18T16:03:59.675] [INFO] default - In performAction
+[2024-09-18T16:03:59.677] [INFO] default - In getElementHandleByXpath  //*[@id="daterange"]//span[@aria-label="down"]
+[2024-09-18T16:03:59.678] [INFO] default - in if
+[2024-09-18T16:03:59.695] [INFO] default - in click
+[2024-09-18T16:04:01.687] [INFO] default - In performAction
+[2024-09-18T16:04:01.690] [INFO] default - In getElementHandleByXpath  //*[@id="daterange"]//span[@class="ant-select-selection-search"]
+[2024-09-18T16:04:01.691] [INFO] default - in if
+[2024-09-18T16:04:01.722] [INFO] default - in type 1 Asia/K
+[2024-09-18T16:04:04.084] [INFO] default - In performAction
+[2024-09-18T16:04:04.086] [INFO] default - In getElementHandleByXpath  //div[@title="Asia/Kolkata (UTC+05:30)"]
+[2024-09-18T16:04:04.087] [INFO] default - in if
+[2024-09-18T16:04:04.115] [INFO] default - in click
+[2024-09-18T16:04:06.104] [INFO] default - In performAction
+[2024-09-18T16:04:06.106] [INFO] default - In getElementHandleByXpath  //label[@title="Scheduled Access"]
+[2024-09-18T16:04:06.107] [INFO] default - in if
+[2024-09-18T16:04:06.121] [INFO] default - in click
+[2024-09-18T16:04:09.175] [INFO] default - In performAction
+[2024-09-18T16:04:09.178] [INFO] default - In getElementHandleByXpath  //div[@id='timings']//input[@value='1']
+[2024-09-18T16:04:09.178] [INFO] default - in if
+[2024-09-18T16:04:09.209] [INFO] default - in click
+[2024-09-18T16:04:11.187] [INFO] default - In getElementHandleByXpath  //input[@placeholder="Start Time"]
+[2024-09-18T16:04:11.189] [INFO] default - in if
+[2024-09-18T16:04:17.241] [INFO] default - In performAction
+[2024-09-18T16:04:17.243] [INFO] default - In getElementHandleByXpath  //input[@placeholder="Start Time"]
+[2024-09-18T16:04:17.245] [INFO] default - in if
+[2024-09-18T16:04:17.272] [INFO] default - in type 1 04:04 PM
+[2024-09-18T16:04:19.379] [INFO] default - In performAction
+[2024-09-18T16:04:19.380] [INFO] default - In getElementHandleByXpath  //label[@title="Scheduled Access"]
+[2024-09-18T16:04:19.380] [INFO] default - in if
+[2024-09-18T16:04:19.397] [INFO] default - in click
+[2024-09-18T16:04:21.936] [INFO] default - In getElementHandleByXpath  //input[@placeholder="End Time"]
+[2024-09-18T16:04:21.939] [INFO] default - in if
+[2024-09-18T16:04:23.985] [INFO] default - In performAction
+[2024-09-18T16:04:23.988] [INFO] default - In getElementHandleByXpath  //input[@placeholder="End Time"]
+[2024-09-18T16:04:23.989] [INFO] default - in if
+[2024-09-18T16:04:24.014] [INFO] default - in type 1 04:19 PM
+[2024-09-18T16:04:26.168] [INFO] default - In performAction
+[2024-09-18T16:04:26.170] [INFO] default - In getElementHandleByXpath  //label[@title="Scheduled Access"]
+[2024-09-18T16:04:26.171] [INFO] default - in if
+[2024-09-18T16:04:26.197] [INFO] default - in click
+[2024-09-18T16:04:29.228] [INFO] default - In performAction
+[2024-09-18T16:04:29.230] [INFO] default - In getElementHandleByXpath  //span[normalize-space()='Notify Now']
+[2024-09-18T16:04:29.231] [INFO] default - in if
+[2024-09-18T16:04:29.267] [INFO] default - in click
+[2024-09-18T16:04:34.244] [INFO] default - In performAction
+[2024-09-18T16:04:34.247] [INFO] default - In getElementHandleByXpath  //button[@id='submitBtn']
+[2024-09-18T16:04:34.247] [INFO] default - in if
+[2024-09-18T16:04:34.283] [INFO] default - in click
+[2024-09-18T16:04:36.279] [INFO] default - In getElementHandleByXpath  //*[@id="userEnableDisableContainer"]//div[@style="display: inline-block;"]
+[2024-09-18T16:04:36.281] [INFO] default - in if
+[2024-09-18T16:04:36.325] [INFO] default - Resend
+[2024-09-18T16:04:36.471] [INFO] default - After Each 
+[2024-09-18T16:29:08.270] [INFO] default - Created custom screenshot  afterEach.png
+[2024-09-18T16:29:08.282] [INFO] default - After ALL

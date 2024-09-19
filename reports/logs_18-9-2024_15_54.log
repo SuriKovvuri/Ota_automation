@@ -1,0 +1,164 @@
+[2024-09-18T15:54:30.394] [INFO] default - Registering the reporter globally
+[2024-09-18T15:54:37.329] [INFO] default - Before all
+[2024-09-18T15:54:37.335] [INFO] default - global.env = ota_sa
+[2024-09-18T15:54:37.363] [INFO] default - env = ota_sa
+[2024-09-18T15:54:37.395] [INFO] default - Navigating to https://dailyregr.remoteaccess.view.com/
+[2024-09-18T15:54:47.256] [INFO] default - Created custom screenshot  loginPage.png
+[2024-09-18T15:54:47.577] [INFO] default - Navigating to using expect click
+[2024-09-18T15:54:50.574] [INFO] default - Hit login
+[2024-09-18T15:55:06.697] [INFO] default - Before Each 
+[2024-09-18T15:55:06.706] [INFO] default - In givenAdminLoggedIn
+[2024-09-18T15:55:07.578] [INFO] default - Created custom screenshot  givenAdminLoggedIn.png
+[2024-09-18T15:55:07.591] [INFO] default - In performAction
+[2024-09-18T15:55:07.593] [INFO] default - In getElementHandleByXpath  //aside//a[@href[contains(.,'orginfo')]]
+[2024-09-18T15:55:07.593] [INFO] default - in if
+[2024-09-18T15:55:07.629] [INFO] default - in click
+[2024-09-18T15:55:10.024] [INFO] default - In performAction
+[2024-09-18T15:55:10.028] [INFO] default - In getElementHandleByXpath  //div[@class='ant-collapse-item']//span[@aria-label='right']//*[name()='svg']
+[2024-09-18T15:55:10.029] [INFO] default - in if
+[2024-09-18T15:55:10.064] [INFO] default - in click
+[2024-09-18T15:55:10.638] [INFO] default - After Each 
+[2024-09-18T15:55:10.651] [INFO] default - Before Each 
+[2024-09-18T15:55:10.655] [INFO] default - In givenAdminLoggedIn
+[2024-09-18T15:55:11.146] [INFO] default - Created custom screenshot  afterEach.png
+[2024-09-18T15:55:11.503] [INFO] default - Created custom screenshot  givenAdminLoggedIn.png
+[2024-09-18T15:55:11.517] [INFO] default - {
+  userid: 'tscheduleaccess',
+  scheduleaccess: 'enable',
+  Repeat: 'Weeklyonce',
+  startday: 'currentadate',
+  endday: '2 weeks',
+  timezone: 'Asia/Kolkata',
+  Time: 'Custom',
+  deleteuserafterexpiry: 'No',
+  usernotification: 'notify now'
+}
+[2024-09-18T15:55:11.520] [INFO] default - {
+  userid: 'tscheduleaccess',
+  scheduleaccess: 'enable',
+  Repeat: 'Weeklyonce',
+  startday: 'currentadate',
+  endday: '2 weeks',
+  timezone: 'Asia/Kolkata',
+  Time: 'Custom',
+  deleteuserafterexpiry: 'No',
+  usernotification: 'notify now'
+}
+[2024-09-18T15:55:11.523] [INFO] default - In performAction
+[2024-09-18T15:55:11.524] [INFO] default - In getElementHandleByXpath  //aside//a[@href[contains(.,'userdashboard')]]
+[2024-09-18T15:55:11.525] [INFO] default - in if
+[2024-09-18T15:55:11.562] [INFO] default - in click
+[2024-09-18T15:55:12.526] [INFO] default - In performAction
+[2024-09-18T15:55:12.528] [INFO] default - In getElementHandleByXpath  //div[text()="Notification Banner"]//parent::div//child::span[@class="anticon anticon-right ant-collapse-arrow"]//*[name()="svg"]
+[2024-09-18T15:55:12.529] [INFO] default - in if
+[2024-09-18T15:55:15.899] [INFO] default - In performAction
+[2024-09-18T15:55:15.902] [INFO] default - In getElementHandleByXpath  //span[@class="anticon anticon-down arrow-toggle"]
+[2024-09-18T15:55:15.903] [INFO] default - in if
+[2024-09-18T15:55:15.923] [INFO] default - in click
+[2024-09-18T15:55:18.018] [INFO] default - In performAction
+[2024-09-18T15:55:18.022] [INFO] default - In getElementHandleByXpath  //input[@placeholder="User ID"]
+[2024-09-18T15:55:18.023] [INFO] default - in if
+[2024-09-18T15:55:18.062] [INFO] default - in type 1 tscheduleaccess
+[2024-09-18T15:55:20.607] [INFO] default - In performAction
+[2024-09-18T15:55:20.613] [INFO] default - In getElementHandleByXpath  //span[@aria-label="search"]
+[2024-09-18T15:55:20.614] [INFO] default - in if
+[2024-09-18T15:55:20.655] [INFO] default - in click
+[2024-09-18T15:55:27.848] [INFO] default - In performAction
+[2024-09-18T15:55:27.851] [INFO] default - In getElementHandleByXpath  //a[normalize-space()='Test Scheduleaccess']
+[2024-09-18T15:55:27.853] [INFO] default - in if
+[2024-09-18T15:55:42.541] [ERROR] default - TimeoutError: waiting for XPath `//div[text()="Notification Banner"]//parent::div//child::span[@class="anticon anticon-right ant-collapse-arrow"]//*[name()="svg"]` failed: timeout 30000ms exceeded
+    at new WaitTask (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\DOMWorld.ts:813:28)
+    at DOMWorld.waitForXPath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\DOMWorld.ts:702:22)
+    at Frame.waitForXPath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\FrameManager.ts:1320:47)
+    at Page.waitForXPath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\Page.ts:3281:29)
+    at getElementHandleByXpath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\utils\utils.js:472:18)
+    at performAction (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\utils\utils.js:497:24)
+    at Object.stepFunction (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\otae2e\helper\otauser.js:6802:28)
+[2024-09-18T15:55:42.547] [ERROR] default - Unable to get element handle by xpath {} //div[text()="Notification Banner"]//parent::div//child::span[@class="anticon anticon-right ant-collapse-arrow"]//*[name()="svg"]
+[2024-09-18T15:55:44.556] [INFO] default - In performAction
+[2024-09-18T15:55:44.559] [INFO] default - In getElementHandleByXpath  //span[text()="Create Banner"]//parent::button[@type="button"]//span[@class="anticon anticon-plus"]
+[2024-09-18T15:55:44.560] [INFO] default - in if
+[2024-09-18T15:55:57.863] [ERROR] default - TimeoutError: waiting for XPath `//a[normalize-space()='Test Scheduleaccess']` failed: timeout 30000ms exceeded
+    at new WaitTask (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\DOMWorld.ts:813:28)
+    at DOMWorld.waitForXPath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\DOMWorld.ts:702:22)
+    at Frame.waitForXPath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\FrameManager.ts:1320:47)
+    at Page.waitForXPath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\Page.ts:3281:29)
+    at getElementHandleByXpath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\utils\utils.js:472:18)
+    at performAction (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\utils\utils.js:497:24)
+    at Object.stepFunction (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\otae2e\helper\otauser.js:2027:40)
+[2024-09-18T15:55:57.868] [ERROR] default - Unable to get element handle by xpath {} //a[normalize-space()='Test Scheduleaccess']
+[2024-09-18T15:56:09.896] [INFO] default - After Each 
+[2024-09-18T15:56:10.340] [INFO] default - Created custom screenshot  afterEach.png
+[2024-09-18T15:56:10.346] [INFO] default - Before Each 
+[2024-09-18T15:56:10.351] [INFO] default - In givenAdminLoggedIn
+[2024-09-18T15:56:10.726] [INFO] default - Created custom screenshot  givenAdminLoggedIn.png
+[2024-09-18T15:56:10.734] [INFO] default - {
+  userid: 'sweekly',
+  scheduleaccess: 'enable',
+  Repeat: 'Weeklytwice',
+  startday: 'currentadate',
+  endday: '2 weeks',
+  timezone: 'Asia/Kolkata',
+  Time: 'Custom',
+  deleteuserafterexpiry: 'No',
+  usernotification: 'notify now'
+}
+[2024-09-18T15:56:10.737] [INFO] default - {
+  userid: 'sweekly',
+  scheduleaccess: 'enable',
+  Repeat: 'Weeklytwice',
+  startday: 'currentadate',
+  endday: '2 weeks',
+  timezone: 'Asia/Kolkata',
+  Time: 'Custom',
+  deleteuserafterexpiry: 'No',
+  usernotification: 'notify now'
+}
+[2024-09-18T15:56:10.739] [INFO] default - In performAction
+[2024-09-18T15:56:10.740] [INFO] default - In getElementHandleByXpath  //aside//a[@href[contains(.,'userdashboard')]]
+[2024-09-18T15:56:10.741] [INFO] default - in if
+[2024-09-18T15:56:10.787] [INFO] default - in click
+[2024-09-18T15:56:14.564] [ERROR] default - TimeoutError: waiting for XPath `//span[text()="Create Banner"]//parent::button[@type="button"]//span[@class="anticon anticon-plus"]` failed: timeout 30000ms exceeded
+    at new WaitTask (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\DOMWorld.ts:813:28)
+    at DOMWorld.waitForXPath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\DOMWorld.ts:702:22)
+    at Frame.waitForXPath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\FrameManager.ts:1320:47)
+    at Page.waitForXPath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\Page.ts:3281:29)
+    at getElementHandleByXpath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\utils\utils.js:472:18)
+    at performAction (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\utils\utils.js:497:24)
+    at Object.stepFunction (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\otae2e\helper\otauser.js:6804:28)
+[2024-09-18T15:56:14.568] [ERROR] default - Unable to get element handle by xpath {} //span[text()="Create Banner"]//parent::button[@type="button"]//span[@class="anticon anticon-plus"]
+[2024-09-18T15:56:15.039] [INFO] default - In performAction
+[2024-09-18T15:56:15.043] [INFO] default - In getElementHandleByXpath  //span[@class="anticon anticon-down arrow-toggle"]
+[2024-09-18T15:56:15.043] [INFO] default - in if
+[2024-09-18T15:56:16.578] [INFO] default - In performAction
+[2024-09-18T15:56:16.581] [INFO] default - In getElementHandleByXpath  //div[@class='rdw-editor-main']
+[2024-09-18T15:56:16.583] [INFO] default - in if
+[2024-09-18T15:56:45.047] [ERROR] default - TimeoutError: waiting for XPath `//span[@class="anticon anticon-down arrow-toggle"]` failed: timeout 30000ms exceeded
+    at new WaitTask (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\DOMWorld.ts:813:28)
+    at DOMWorld.waitForXPath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\DOMWorld.ts:702:22)
+    at Frame.waitForXPath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\FrameManager.ts:1320:47)
+    at Page.waitForXPath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\Page.ts:3281:29)
+    at getElementHandleByXpath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\utils\utils.js:472:18)
+    at performAction (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\utils\utils.js:497:24)
+    at Object.stepFunction (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\otae2e\helper\otauser.js:2273:40)
+[2024-09-18T15:56:45.055] [ERROR] default - Unable to get element handle by xpath {} //span[@class="anticon anticon-down arrow-toggle"]
+[2024-09-18T15:56:46.589] [ERROR] default - TimeoutError: waiting for XPath `//div[@class='rdw-editor-main']` failed: timeout 30000ms exceeded
+    at new WaitTask (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\DOMWorld.ts:813:28)
+    at DOMWorld.waitForXPath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\DOMWorld.ts:702:22)
+    at Frame.waitForXPath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\FrameManager.ts:1320:47)
+    at Page.waitForXPath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer\src\common\Page.ts:3281:29)
+    at getElementHandleByXpath (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\utils\utils.js:472:18)
+    at performAction (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\utils\utils.js:497:24)
+    at Object.stepFunction (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\otae2e\helper\otauser.js:6806:28)
+[2024-09-18T15:56:46.594] [ERROR] default - Unable to get element handle by xpath {} //div[@class='rdw-editor-main']
+[2024-09-18T15:56:47.058] [INFO] default - In performAction
+[2024-09-18T15:56:47.064] [INFO] default - In getElementHandleByXpath  //input[@placeholder="User ID"]
+[2024-09-18T15:56:47.065] [INFO] default - in if
+[2024-09-18T15:56:47.125] [INFO] default - in type 1 sweekly
+[2024-09-18T15:56:48.605] [INFO] default - In performAction
+[2024-09-18T15:56:48.607] [INFO] default - In getElementHandleByXpath  //div[@class='rdw-editor-main']
+[2024-09-18T15:56:48.607] [INFO] default - in if
+[2024-09-18T15:56:49.565] [INFO] default - In performAction
+[2024-09-18T15:56:49.568] [INFO] default - In getElementHandleByXpath  //span[@aria-label="search"]
+[2024-09-18T15:56:49.569] [INFO] default - in if
+[2024-09-18T15:56:49.603] [INFO] default - in click

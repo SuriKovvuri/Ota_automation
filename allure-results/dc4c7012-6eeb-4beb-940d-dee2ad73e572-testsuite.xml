@@ -1,0 +1,97 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1726655225707' stop='1726655292177'>
+    <name>Validate the schedule access</name>
+    <title>Validate the schedule access</title>
+    <test-cases>
+        <test-case start='1726655256273' status='failed' stop='1726655261330'>
+            <name> Validate the schedule access - Enable the schedule access}</name>
+            <title> Validate the schedule access - Enable the schedule access}</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1726655256287' status='passed' stop='1726655257908'>
+                    <name>Admin user logged in</name>
+                    <title>Admin user logged in</title>
+                    <attachments>
+                        <attachment title='Admin user logged in.' source='1c0fbc7f-2a84-4afa-97e4-ebbbccce0a36-attachment.png' type='image/png' size='148647'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1726655257909' status='undefined'>
+                    <name>When I navigate to Org profile</name>
+                    <title>When I navigate to Org profile</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Error: Request failed with status code 404
+                    at createError (https://d20u9ifcznko36.cloudfront.net/ota-rel-24.07.00-214/js/vendors.e72ea18e.chunk.js:2:2898071)
+                    at settle (https://d20u9ifcznko36.cloudfront.net/ota-rel-24.07.00-214/js/vendors.e72ea18e.chunk.js:2:4795868)
+                    at XMLHttpRequest.onloadend (https://d20u9ifcznko36.cloudfront.net/ota-rel-24.07.00-214/js/vendors.e72ea18e.chunk.js:2:2896438)</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1726655261331' status='pending' stop='1726655261331'>
+            <name> Validate the schedule access - Enable the schedule access weeklyOnce}</name>
+            <title> Validate the schedule access - Enable the schedule access weeklyOnce}</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Temporarily disabled with xit</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1726655261331' status='pending' stop='1726655261332'>
+            <name> Validate the schedule access - Enable the schedule access Weeklytwice}</name>
+            <title> Validate the schedule access - Enable the schedule access Weeklytwice}</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Temporarily disabled with xit</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1726655261332' status='pending' stop='1726655261332'>
+            <name> Validate the schedule access - Enable the schedule access WeeklyAllDays}</name>
+            <title> Validate the schedule access - Enable the schedule access WeeklyAllDays}</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Temporarily disabled with xit</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1726655261332' status='pending' stop='1726655261333'>
+            <name> Validate the schedule access - Enable the schedule access MonthlyOnce}</name>
+            <title> Validate the schedule access - Enable the schedule access MonthlyOnce}</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Temporarily disabled with xit</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1726655261333' status='pending' stop='1726655261333'>
+            <name> Validate the schedule access - Enable the schedule access on the week and day}</name>
+            <title> Validate the schedule access - Enable the schedule access on the week and day}</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Temporarily disabled with xit</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

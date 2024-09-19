@@ -1,0 +1,33 @@
+[2024-09-17T17:19:17.472] [INFO] default - Registering the reporter globally
+[2024-09-17T17:19:28.681] [INFO] default - Before all
+[2024-09-17T17:19:28.687] [INFO] default - global.env = ota_nb
+[2024-09-17T17:19:28.725] [INFO] default - env = ota_nb
+[2024-09-17T17:19:28.764] [INFO] default - Navigating to https://qa.remoteaccess.view.com/
+[2024-09-17T17:19:31.731] [ERROR] default - JestAssertionError: [2mexpect([22m[31mreceived[39m[2m).[22mresolves[2m.[22mtoMatch[2m([22m[32mexpected[39m[2m)[22m
+
+Expected substring: [32m"Login - View Remote Access"[39m
+Received string:    [31m""[39m
+    at Object.toMatch (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\expect\build\index.js:242:22)
+    at Login.launch (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\otae2e\helper\otalogin.js:30:45)
+    at Object.<anonymous> (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\otae2e\test-specifications\otanotificationbanner.spec.js:85:13) {
+  matcherResult: {
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mresolves\x1B[2m.\x1B[22mtoMatch\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m\n' +
+      '\n' +
+      'Expected substring: \x1B[32m"Login - View Remote Access"\x1B[39m\n' +
+      'Received string:    \x1B[31m""\x1B[39m',
+    pass: false
+  }
+}
+[2024-09-17T17:19:31.757] [INFO] default - Before Each 
+[2024-09-17T17:19:31.763] [INFO] default - In givenAdminLoggedIn
+[2024-09-17T17:19:31.814] [INFO] default - global.env = ota_nb
+[2024-09-17T17:19:31.833] [INFO] default - env = ota_nb
+[2024-09-17T17:19:31.837] [INFO] default - Navigating to https://qa.remoteaccess.view.com/
+[2024-09-17T17:19:34.370] [INFO] default - Created custom screenshot  givenAdminLoggedIn.png
+[2024-09-17T17:19:34.598] [INFO] default - After Each 
+[2024-09-17T17:19:34.793] [INFO] default - Created custom screenshot  afterEach.png
+[2024-09-17T17:19:34.801] [INFO] default - After ALL
+[2024-09-17T17:19:34.824] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'detach')
+    at PuppeteerHar.stop (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer-har\lib\PuppeteerHar.js:108:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Object.<anonymous> (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\otae2e\test-specifications\otanotificationbanner.spec.js:64:13)

@@ -1,0 +1,73 @@
+[2024-09-18T15:48:26.696] [INFO] default - Registering the reporter globally
+[2024-09-18T15:48:33.180] [INFO] default - Before all
+[2024-09-18T15:48:33.186] [INFO] default - global.env = ota_sa
+[2024-09-18T15:48:33.221] [INFO] default - env = ota_sa
+[2024-09-18T15:48:33.262] [INFO] default - Navigating to https://qa.remoteaccess.view.com/
+[2024-09-18T15:48:36.415] [ERROR] default - JestAssertionError: [2mexpect([22m[31mreceived[39m[2m).[22mresolves[2m.[22mtoMatch[2m([22m[32mexpected[39m[2m)[22m
+
+Expected substring: [32m"Login - View Remote Access"[39m
+Received string:    [31m""[39m
+    at Object.toMatch (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\expect\build\index.js:242:22)
+    at Login.launch (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\otae2e\helper\otalogin.js:30:45)
+    at Object.<anonymous> (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\otae2e\test-specifications\otascheduleaccess.spec.js:85:13) {
+  matcherResult: {
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mresolves\x1B[2m.\x1B[22mtoMatch\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m)\x1B[22m\n' +
+      '\n' +
+      'Expected substring: \x1B[32m"Login - View Remote Access"\x1B[39m\n' +
+      'Received string:    \x1B[31m""\x1B[39m',
+    pass: false
+  }
+}
+[2024-09-18T15:48:36.436] [INFO] default - Before Each 
+[2024-09-18T15:48:36.441] [INFO] default - In givenAdminLoggedIn
+[2024-09-18T15:48:36.517] [INFO] default - global.env = ota_sa
+[2024-09-18T15:48:36.532] [INFO] default - env = ota_sa
+[2024-09-18T15:48:36.535] [INFO] default - Navigating to https://qa.remoteaccess.view.com/
+[2024-09-18T15:48:39.186] [INFO] default - Created custom screenshot  givenAdminLoggedIn.png
+[2024-09-18T15:48:39.401] [INFO] default - After Each 
+[2024-09-18T15:48:39.594] [INFO] default - Created custom screenshot  afterEach.png
+[2024-09-18T15:48:39.603] [INFO] default - Before Each 
+[2024-09-18T15:48:39.607] [INFO] default - In givenAdminLoggedIn
+[2024-09-18T15:48:39.625] [INFO] default - global.env = ota_sa
+[2024-09-18T15:48:39.635] [INFO] default - env = ota_sa
+[2024-09-18T15:48:39.638] [INFO] default - Navigating to https://qa.remoteaccess.view.com/
+[2024-09-18T15:48:42.086] [INFO] default - Created custom screenshot  givenAdminLoggedIn.png
+[2024-09-18T15:48:42.094] [INFO] default - After Each 
+[2024-09-18T15:48:42.254] [INFO] default - Created custom screenshot  afterEach.png
+[2024-09-18T15:48:42.260] [INFO] default - Before Each 
+[2024-09-18T15:48:42.263] [INFO] default - In givenAdminLoggedIn
+[2024-09-18T15:48:42.277] [INFO] default - global.env = ota_sa
+[2024-09-18T15:48:42.289] [INFO] default - env = ota_sa
+[2024-09-18T15:48:42.292] [INFO] default - Navigating to https://qa.remoteaccess.view.com/
+[2024-09-18T15:48:44.837] [INFO] default - Created custom screenshot  givenAdminLoggedIn.png
+[2024-09-18T15:48:44.845] [INFO] default - After Each 
+[2024-09-18T15:48:44.972] [INFO] default - Created custom screenshot  afterEach.png
+[2024-09-18T15:48:44.977] [INFO] default - Before Each 
+[2024-09-18T15:48:44.981] [INFO] default - In givenAdminLoggedIn
+[2024-09-18T15:48:44.991] [INFO] default - global.env = ota_sa
+[2024-09-18T15:48:45.001] [INFO] default - env = ota_sa
+[2024-09-18T15:48:45.004] [INFO] default - Navigating to https://qa.remoteaccess.view.com/
+[2024-09-18T15:48:47.569] [INFO] default - Created custom screenshot  givenAdminLoggedIn.png
+[2024-09-18T15:48:47.578] [INFO] default - After Each 
+[2024-09-18T15:48:47.811] [INFO] default - Created custom screenshot  afterEach.png
+[2024-09-18T15:48:47.817] [INFO] default - Before Each 
+[2024-09-18T15:48:47.820] [INFO] default - In givenAdminLoggedIn
+[2024-09-18T15:48:47.832] [INFO] default - global.env = ota_sa
+[2024-09-18T15:48:47.845] [INFO] default - env = ota_sa
+[2024-09-18T15:48:47.847] [INFO] default - Navigating to https://qa.remoteaccess.view.com/
+[2024-09-18T15:48:50.338] [INFO] default - Created custom screenshot  givenAdminLoggedIn.png
+[2024-09-18T15:48:50.347] [INFO] default - After Each 
+[2024-09-18T15:48:50.515] [INFO] default - Created custom screenshot  afterEach.png
+[2024-09-18T15:48:50.522] [INFO] default - Before Each 
+[2024-09-18T15:48:50.525] [INFO] default - In givenAdminLoggedIn
+[2024-09-18T15:48:50.546] [INFO] default - global.env = ota_sa
+[2024-09-18T15:48:50.563] [INFO] default - env = ota_sa
+[2024-09-18T15:48:50.566] [INFO] default - Navigating to https://qa.remoteaccess.view.com/
+[2024-09-18T15:48:53.194] [INFO] default - Created custom screenshot  givenAdminLoggedIn.png
+[2024-09-18T15:48:53.201] [INFO] default - After Each 
+[2024-09-18T15:48:53.403] [INFO] default - Created custom screenshot  afterEach.png
+[2024-09-18T15:48:53.410] [INFO] default - After ALL
+[2024-09-18T15:48:53.441] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'detach')
+    at PuppeteerHar.stop (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\node_modules\puppeteer-har\lib\PuppeteerHar.js:108:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Object.<anonymous> (C:\Users\skovvuri\Desktop\ota_automation\notification_banner\qa-workflowautomation\otae2e\test-specifications\otascheduleaccess.spec.js:64:13)
